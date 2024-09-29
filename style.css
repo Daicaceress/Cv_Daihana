@@ -5,13 +5,12 @@
     --nord3: #88C0D0
     --nord4: #81A1C1
     --nord5: #5E81AC
-    --font:BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Fira Sans", "Arial"; 
-}
-* { outline: 1px solid red; }
+    --nord6:#B48EAD
+    --font:BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Fira Sans", "Arial";
 
  body {
     font-family: var(--font);
-    color: var(--nord0)
+    color: var(--nord5)
     }
 
  header, section {
@@ -20,10 +19,12 @@
     }
 
  header {
-    display:flex;
+    display: flex;
+    background-color:#f8d2c7
+    padding-left: 16;
  }
 ul {
-  list-style-type: "💼"; 
+  list-style-type: ; 
 }
  section{
    display:flex;
@@ -37,13 +38,37 @@ ul {
     width:200px;
     height:200px;
     margin-right: 16px;
+    border-radius: 50%;
  }
 a:link, a:visited {
    text-emphasis: none;
-   color: rgb(230, 186, 211);
+   color: rgb(135, 139, 141);   
 }
-    align-items:center
-    justify-content:center
-    background-color:#bf9c92
+background-color:#bf9c92
+
+}
+progress{
+   margin-left: 8px;
+}
+
+}
+.flex {
+  display: flex; 
+}
+}
+.centrar {
+   text-align: center;
+}
+
+h4 {
+   text-align: justify;
+   font-family: Times, serif;
+}
+@media(max-width:900px){
+   .header-principal{
+      display:none
+   }
+   
+   }
 
 
